@@ -4,7 +4,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 from zope.sqlalchemy import ZopeTransactionExtension
 
 # DBSession = scoped_session(sessionmaker(extension=ZopeTransactionExtension()))
-DB_URI = 'sqlite:///stuff.db'
+DB_URI = 'sqlite:///watermon.db'
 
 Session = sessionmaker(autocommit=False,
                        autoflush=False,
